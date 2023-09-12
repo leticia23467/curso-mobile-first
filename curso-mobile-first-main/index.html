@@ -4,28 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Mobile First</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>MENU HAMBURGUER</title>
+
     <link rel="stylesheet" href="reset.css">
-    
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <header class="cabecalho" >
-     <span class="cabecalho_menu-hamburguer"></span> 
 
-     <img src="img/logo.svg" alt="logomarca">
+    <header class="cabecalho">
 
 
-      <a href="#"> <img src="img/favotitos.svg" alt="meus favotitos"></a> 
+    <div class="container">
 
-      <a href="#"> <img src="img/emprestimo.svg" alt="meus emprestimo"></a> 
+    <input type="checkbox" id="menu" class="container__botao">
 
-      <a href="#"> <img src="img/usuario.svg" alt="Meu perfil"></a>   
+    <label for="menu">
 
-    
+          <span class="cabecalho__menu-hamburguer container__imagem"></span> 
 
-    <h1>Titulo Da Minha Pagina</h1>
-    <p>Aguardem Firme, a aula esta terminando</p>
+    </label>
+
+     <ul class="lista-menu">
+
+        <li class="lista-menu__titulo">Categorias</li>
+
+        <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Aventura</a><li>
+
+        <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Biografia</a> </li>
+
+        <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Ficção</a></li>
+
+        <li class="lista-menu__item">>
+        <a href="#" class="lista-menu__link">Romance</a></li>
+
+        <li class="lista-menu__item">
+        <a href="#" class="lista-menu_link">Vestibular</a></li>
+
+        </ul>
+
+     <img src="img/Logo.svg" alt="logomarca" class="container__imagem">
+
+    </div>
+ 
+    <div class="container">
+
+      <a href="#"> <img src="img/Favoritos.svg" alt="Meus Favotitos" class="container__imagem"></a> 
+
+      <a href="#"> <img src="img/Emprestimos.svg" alt="Meus emprestimos"  class="container__imagem"></a> 
+
+      <a href="#"> <img src="img/Usuario.svg" alt="Meu perfil"  class="container__imagem"></a> 
+
+
+    </div>
+ 
 
 </header>
     
