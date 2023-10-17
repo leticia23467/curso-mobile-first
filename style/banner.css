@@ -9,5 +9,23 @@
 
         .banner__texto{
             font-weight: 500;
-            margin: 1em;
-        }
+            margin: 1em;}
+
+        .banner__pesquisa{
+            background-color: transparent;
+            color: var(--branco);
+            width: 80vw;
+            border: 2px;
+            border-style: solid;
+            border-radius: 25px;
+            padding: 1em;}
+
+        .banner__pesquisa::placeholder{
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--branco);
+            text-align: center;
+            background-image: url("img/Lipa.svg");
+            background-repeat: no-repeat;
+            background-position: 0.1em;
+            font-family: var(--font-principal);}

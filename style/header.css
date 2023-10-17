@@ -32,7 +32,7 @@
     top: 100%;
     width: 70vw;
 }
-.lista-menu_titulo, .lista-menu_item{
+.lista-menu_titulo, .lista-menu__item{
     pad: 1em;
     background-color: var(--branco);
 }
