@@ -1,7 +1,8 @@
-.banner{background-color: var(--roxo);
+.banner{
+    background-color: var(--roxo);
     color: var(--branco);
     text-align: center;
-    padding: 2.5em 2em}
+    padding: 2.5em 2em;}
 
     .banner__titulo{
         font-size: 18px;
@@ -25,7 +26,7 @@
             font-weight: 400;
             color: var(--branco);
             text-align: center;
-            background-image: url("img/Lipa.svg");
+            background-image: url("..mg/Lupa.svg");
             background-repeat: no-repeat;
             background-position: 0.1em;
-            font-family: var(--font-principal);}
+            font-family: var(--fonte-principal);}
