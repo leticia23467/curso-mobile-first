@@ -31,8 +31,8 @@
     top: 100%;
     width: 70vw;
 }
-.lista-menu__titulo,.lista-menu__item{
-    pad: 1em;
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em; ;
     background-color: var(--branco);
 }
 .lista-menu__titulo{
@@ -64,16 +64,16 @@
     /*Versão Tablet*/
     @media screen and(min-width:1024px){
         .container__titulo{
-            font-family: var(--fonte-secundaria);
+            font-family:var(--fonte-secundaria);
             font-size: 30px;
             display: block;
         }
 
         .container__titulo--negrito{
-            font-weight: 700; }}
+            font-weight:700; }}
 
             .opções{
-                display: flex;
+                display:flex;
             }
         
             .opções__item{
@@ -86,7 +86,7 @@
                 color: var(--preto);
             }
 
-            @media screen and(min-with:1728px) {
+            @media screen and(min-width:1728px) {
                 .container__link{
                     display:flex;
                     align-items:center;
